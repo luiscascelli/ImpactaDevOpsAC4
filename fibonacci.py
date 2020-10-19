@@ -12,7 +12,7 @@ def fibonacci():
     while len(f) < 50:
         f.append(f[i] + f[i+1])
         i += 1
-    listToStr = ' '.join(map(str, p))
+    listToStr = ' '.join(map(str, f))
     return listToStr
 
 
